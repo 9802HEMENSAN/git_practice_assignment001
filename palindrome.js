@@ -1,4 +1,4 @@
- // Check Prime or Not ?
+
  function reverse(str){
     let bag="";
     for(let i=str.length-1;i>=0; i--){
@@ -9,10 +9,12 @@
      }
    return false;
   }
-    
-   let ans=reverse("kanam");
-  if(ans==true){
-    console.log("palindrome");
-  }else{
-    console.log("Not a Palindrome");
-  }
+let answer = checkPal("racecar");
+if(answer == true){
+    console.log("string is palindrome");
+}else{
+    console.log("string is not palindrome");
+
+}  
+   
+
